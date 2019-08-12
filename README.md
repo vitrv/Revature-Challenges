@@ -1,4 +1,4 @@
-#####Laura Catano
+Laura Catano -
 Week 1 - Coding Challenge
 
 `a palindrome is a word or sentence that read forward or backward result in the same word or sentence. example: civic, anana, never odd or even.`
