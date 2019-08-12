@@ -7,7 +7,7 @@ namespace Palindrome.Client
     {
         static void Main(string[] args)
         {
-          System.Console.WriteLine(Word.TestPalindrome("ana"));
+          System.Console.WriteLine(Word.TestPalindromeRecursive("abcdcba"));
         }
     }
 }

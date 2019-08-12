@@ -22,5 +22,18 @@ namespace Palindrome.Domain
         
         return true;
       }
+      public static bool TestPalindromeRecursive(string input)
+      {
+        if(input.Length == 1)
+        {
+          return true;
+        }
+        else 
+        {
+          int end = input.Length - 1;
+          int start = 0;
+          return (input[start] == input [end]) && TestPalindromeRecursive(input.Substring(1, end-1));
+        }
+      }
     }
 }
